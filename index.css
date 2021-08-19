@@ -15,6 +15,7 @@ header h1 {
   width: 80%;
   margin: 10px auto;
   border: 2px solid red;
+  border-radius: 15px;
 }
 .grid {
   display: grid;
@@ -45,12 +46,12 @@ input {
 
 .bill {
   /* display: none; */
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
 }
 
 .amount {
   /* display: none; */
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
 }
 
 #table-display {
