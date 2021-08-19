@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=\, initial-scale=1.0" />
-    <title>Cash Register</title>
+    <title>amount Register</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
@@ -16,38 +16,47 @@
         <label for="bill">Bill </label><br />
         <input type="number" id="bill" /><br />
       </div>
-      <div class="cash flex-cl">
-        <label for="cash"> Amout given</label><br />
-        <input type="number" id="cash" /><br />
+      <div class="amount flex-cl">
+        <label for="amount"> Amout given</label><br />
+        <input type="number" id="amount" /><br />
       </div>
-      <div class="cash-return flex-cl">
-        <h3>Cash to return</h3>
-        <table class="table">
-          <thead>
-            <tr>
-              <th>AMOUNT</th>
-              <th>2000</th>
-              <th>500</th>
-              <th>100</th>
-              <th>50</th>
-              <th>20</th>
-              <th>10</th>
-              <th>1</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td data-label="AMOUNT">NO. OF NOTES</td>
-              <td data-label="2000">3</td>
-              <td data-label="500">1</td>
-              <td data-label="100">0</td>
-              <td data-label="50">0</td>
-              <td data-label="20">0</td>
-              <td data-label="10">0</td>
-              <td data-label="1">0</td>
-            </tr>
-          </tbody>
-        </table>
+      <button id="check">Check</button>
+      <div id="display" class="amount-return flex-cl">
+        <p id="message"></p>
+        <div class="table" id="table">
+          <div class="block flex-cl">
+            <h4>Notes</h4>
+            <h4>No. of Notes</h4>
+          </div>
+          <div class="block flex-cl">
+            <p>2000</p>
+            <p>0</p>
+          </div>
+          <div class="block flex-cl">
+            <p>500</p>
+            <p></p>
+          </div>
+          <div class="block flex-cl">
+            <p>100</p>
+            <p></p>
+          </div>
+          <div class="block flex-cl">
+            <p>50</p>
+            <p></p>
+          </div>
+          <div class="block flex-cl">
+            <p>10</p>
+            <p></p>
+          </div>
+          <div class="block flex-cl">
+            <p>5</p>
+            <p></p>
+          </div>
+          <div class="block flex-cl">
+            <p>1</p>
+            <p></p>
+          </div>
+        </div>
       </div>
     </main>
     <script src="./index.js"></script>
