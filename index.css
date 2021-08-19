@@ -44,14 +44,8 @@ input {
   border-radius: 10px;
 }
 
-.bill {
-  /* display: none; */
-  /* border: 2px solid grey; */
-}
-
-.amount {
-  /* display: none; */
-  /* border: 2px solid grey; */
+.display {
+  margin: 15px 0;
 }
 
 #table-display {
